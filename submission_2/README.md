@@ -67,7 +67,7 @@ streamlit run app.py
 - Dataset terdapat outlier dalam beberapa kolom numerik. Akan tetapi, value yang dianggap outlier sangatlah wajar dikarenakan value tersebut benar adanya. Sebagai contoh terdapat beberapa outlier pada kolom Age_at_enrollment yang besarannya tinggi. Hal tersebut adalah wajar karena siswa yang mendapat usia tersebut adalah siswa yang memiliki usia lebih dari 50 tahun, sehingga sangatlah berbeda dengan siswa yang lainnya. Keputusan untuk tidak menghapus outlier adalah karena data tersebut benar adanya, dan bukan merupakan kesalahan sistem.
 
 **Model Performance**
-Model XGBoost berhasil memprediksi mahasiswa yang dropout dengan akurasi keseluruhan yang cukup baik sebesar 87% dan dengan F1 sebesar 0.79 untuk kelas minoritas "Dropout". Ini membuktikan bahwa tingkat dropout mahasiswa bukanlah sesuatu yang random dan hal ini sangat bisa diprediksi berdasarkan indikator-indikator awal.
+Model XGBoost berhasil memprediksi mahasiswa yang dropout dengan akurasi keseluruhan yang cukup baik sebesar 92% dan dengan F1 sebesar 0.89 untuk kelas "Dropout", 0.93 untuk kelas Graduate. Ini membuktikan bahwa tingkat dropout mahasiswa bukanlah sesuatu yang random dan hal ini sangat bisa diprediksi berdasarkan indikator-indikator awal.
 
 Link sreamlit website: https://dicoding-expert-data-science-aminullohzaqi.streamlit.app/
 
